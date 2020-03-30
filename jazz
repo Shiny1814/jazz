@@ -11,17 +11,3 @@ echo "  (_|"
 echo " "
 
 mplayer -ao pulse -nocache -afm ffmpeg http://lyd.nrk.no/nrk_radio_jazz_mp3_h > /tmp/jazz 2>&1
-
-#function playing {
-#	grep ICY /tmp/jazz | tail -1
-#}
-#
-#var=$(playing) 
-#
-#printf $var
-#while true
-#do
-#    printf $var &printf "now playing: " 
-#    sleep 1
-#	printf "\r%b"  "\033[2K"
-#done
